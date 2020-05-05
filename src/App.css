@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'RobotoCondensed-Light';
+    src: local('RobotoCondensed-Light'), url(./assets/RobotoCondensed-Light.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Regular';
+    src: local('RobotoCondensed-Regular'), url(./assets/RobotoCondensed-Regular.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Bold';
+    src: local('RobotoCondensed-Bold'), url(./assets/RobotoCondensed-Bold.ttf) format('ttf');
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'RobotoCondensed-Light';
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+}
+
+.header {
+    align-items: center;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.header .logo {
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #212121;
+    font-family: 'RobotoCondensed-Bold';
+    font-size: 16px;
+    padding: 2px 8px;
+}
+
+.header .hidden-menu {
+    background-color: #212121;
+    left: 0;
+    list-style: none;
+    position: absolute;
+    top: 65px;
+    width: 100%;
+}
+
+.header .hidden-menu li {
+    padding: 15px 22px;
+    text-align: right;
+}
+
+.header .hidden-menu li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header .hidden-menu li a.active {
+    color: #f44336;
+    font-family: 'RobotoCondensed-Bold';
+}
+
+.header .actions {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.header .actions .trigger {
+    margin-left: 30px;
+}
+
+.header .actions .trigger.geo {
+    background-image: url('./assets/ic_language_black_48dp.png');
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+
+.header .actions .trigger.geo.active {
+    background-image: url('./assets/ic_language_black_48dp_red.png');
+}
+
+.header .actions .trigger.menu {
+    background-image: url('./assets/ic_menu_black_48dp.png');
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+}
+
+.header .actions .trigger.menu.active {
+    background-image: url('./assets/ic_menu_black_48dp_red.png');
+}
+
+.main {
+    align-items: center;
+    background-image: url('./assets/background.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: space-between;
+    padding: 100px 0 30px 0;
+    width: 100%;
+}
+
+.main .jumbo {
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .jumbo .text {
+    color: #ffffff;
+    font-family: 'RobotoCondensed-Bold';
+    font-size: 45px;
+}
+
+.main .jumbo .text.small {
+    font-size: 25px;
+}
+
+.main .jumbo .text .alt {
+    color: #f44336;
+    font-family: 'RobotoCondensed-Bold';
+}
+
+.main .scroll-indicator {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .scroll-indicator .dot {
+    background-color: #f44336;
+    border-radius: 50%;
+    margin-top: 8px;
+    height: 4px;
+    width: 4px;
+}
+
+.section {
+    background-color: #ffffff;
+    color: #212121;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 30px;
+}
+
+.section.secondary {
+    background-color: #212121;
+    color: #ffffff;
+}
+
+.section .title {
+    font-family: 'RobotoCondensed-Bold';
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.experience:last-child {
+    margin-bottom: 0;
+}
+
+.experience .entity-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.experience .entity-info .entity-info--details {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience .entity-info .entity-info--details .entity-info--details_logo {
+    background-color: gray;
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 15px;
+    width: 50px;
+}
+
+.experience .entity-info .entity-info--details .entity-info--details_name,
+.experience .entity-info .entity-info--details .entity-info--details_position {
+    font-family: 'RobotoCondensed-Bold';
+    text-transform: uppercase;
+}
+
+.experience .entity-info .entity-info--details .entity-info--details_name {
+    color: #f44336;
+}
+
+.experience .entity-info .entity-info--details .entity-info--details_position {
+    font-size: 13px;
+}
+
+.experience .entity-info .entity-info--timeframe {
+    font-family: 'RobotoCondensed-Bold';
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skills .skill {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 50px 20px;
+}
+
+.skills .skill .skill--logo {
+    background-color: gray;
+    border-radius: 50%;
+    height: 65px;
+    margin-bottom: 10px;
+    width: 65px;
+}
+
+.skills .skill .skill--name {
+    font-family: 'RobotoCondensed-Bold';
+    font-size: 12px;
+    text-transform: uppercase;
+}
