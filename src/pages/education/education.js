@@ -10,7 +10,7 @@ const Education = () => {
 
     return (
         <Section>
-            <Title>Education</Title>
+            <Title>Academics</Title>
             <div>
                 {
                     educationData.map((item, key) => {
