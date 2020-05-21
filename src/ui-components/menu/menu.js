@@ -1,6 +1,17 @@
 import React from 'react';
 
 const Menu = (props) => {
+
+    const handleClick = (itemId) => {
+        if (props.setActive) {
+            props.setActive(itemId);
+        }
+
+        if (props.onChange) {
+            props.onChange();
+        }
+    }
+
     return (
         <ul className="hidden-menu">
             {
@@ -10,7 +21,7 @@ const Menu = (props) => {
                             <a
                                 href={ `#${item.link}` }
                                 className={ props.active === key ? 'active' : '' }
-                                onClick={ () => { props.setActive(key) } }>
+                                onClick={ () => { handleClick(key) } }>
                                 { item.text }
                             </a>
                         </li>
