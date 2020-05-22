@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './menu.css';
+
 const Menu = (props) => {
 
     const handleClick = (itemId) => {
@@ -13,7 +15,7 @@ const Menu = (props) => {
     }
 
     return (
-        <ul className="hidden-menu">
+        <ul className="menu">
             {
                 props.items.map((item, key) => {
                     return (

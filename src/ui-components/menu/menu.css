@@ -1,0 +1,23 @@
+.menu {
+    background-color: #212121;
+    left: 0;
+    list-style: none;
+    position: absolute;
+    top: 65px;
+    width: 100%;
+}
+
+.menu li {
+    padding: 15px 22px;
+    text-align: right;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu li a.active {
+    color: #f44336;
+    font-family: 'RobotoCondensed-Bold';
+}

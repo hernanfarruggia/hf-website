@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 
 import Menu from '../menu';
 
+import './header.css';
+
 const Header = () => {
 
     const [ isGeoVisible, setIsGeoVisible ] = useState(false);
@@ -54,7 +56,7 @@ const Header = () => {
                     onClick={ () => { handleGeoClick() } }>
                 </div>
                 <div
-                    className={ `trigger menu ${isMenuVisible ? 'active' : ''}` }
+                    className={ `trigger nav ${isMenuVisible ? 'active' : ''}` }
                     onClick={ () => { handleMenuClick() } }>
                 </div>
             </div>
