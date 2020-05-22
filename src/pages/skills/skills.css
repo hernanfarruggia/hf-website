@@ -1,0 +1,18 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skills .skill {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 50px 20px;
+}
+
+.skills .skill .skill--name {
+    font-family: 'RobotoCondensed-Bold';
+    font-size: 12px;
+    text-transform: uppercase;
+}

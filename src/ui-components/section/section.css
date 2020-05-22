@@ -1,12 +1,12 @@
 .section {
-    background-color: #ffffff;
-    color: #212121;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
     display: flex;
     flex-direction: column;
     padding: 75px 30px;
 }
 
 .section.secondary {
-    background-color: #212121;
-    color: #ffffff;
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
 }

@@ -1,5 +1,5 @@
 .menu {
-    background-color: #212121;
+    background-color: var(--bg-secondary);
     left: 0;
     list-style: none;
     position: absolute;
@@ -13,11 +13,11 @@
 }
 
 .menu li a {
-    color: #ffffff;
+    color: var(--text-seconday);
     text-decoration: none;
 }
 
 .menu li a.active {
-    color: #f44336;
+    color: var(--text-tertiary);
     font-family: 'RobotoCondensed-Bold';
 }

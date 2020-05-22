@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'RobotoCondensed-Light';
+    src: local('RobotoCondensed-Light'), url(../assets/RobotoCondensed-Light.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Regular';
+    src: local('RobotoCondensed-Regular'), url(../assets/RobotoCondensed-Regular.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Bold';
+    src: local('RobotoCondensed-Bold'), url(../assets/RobotoCondensed-Bold.ttf) format('ttf');
+}

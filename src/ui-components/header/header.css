@@ -1,6 +1,6 @@
 .header {
     align-items: center;
-    background-color: #212121;
+    background-color: var(--bg-secondary);
     display: flex;
     justify-content: space-between;
     padding: 15px 20px;
@@ -8,9 +8,9 @@
 }
 
 .header .logo {
-    background-color: #ffffff;
+    background-color: var(--bg-primary);
     border-radius: 20px;
-    color: #212121;
+    color: var(--text-primary);
     font-family: 'RobotoCondensed-Bold';
     font-size: 16px;
     padding: 2px 8px;

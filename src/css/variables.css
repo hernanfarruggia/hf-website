@@ -1,0 +1,9 @@
+:root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #212121;
+    --bg-tertiary: #f44336;
+
+    --text-primary: #212121;
+    --text-secondary: #ffffff;
+    --text-tertiary: #f44336;
+}

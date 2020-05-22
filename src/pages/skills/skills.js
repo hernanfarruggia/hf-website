@@ -6,6 +6,8 @@ import Section from '../../ui-components/section';
 import Title from '../../ui-components/title';
 import Avatar from '../../ui-components/avatar';
 
+import './skills.css';
+
 const Skills = () => {
 
     return (

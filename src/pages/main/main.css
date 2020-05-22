@@ -1,0 +1,49 @@
+.main {
+    align-items: center;
+    background-image: url('../../assets/background.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: space-between;
+    padding: 100px 0 30px 0;
+    width: 100%;
+}
+
+.main .jumbo {
+    align-items: center;
+    color: var(--text-secondary);
+    display: flex;
+    flex-direction: column;
+}
+
+.main .jumbo .text {
+    color: var(--text-secondary);
+    font-family: 'RobotoCondensed-Bold';
+    font-size: 45px;
+}
+
+.main .jumbo .text.small {
+    font-size: 25px;
+}
+
+.main .jumbo .text .alt {
+    color: var(--text-tertiary);
+    font-family: 'RobotoCondensed-Bold';
+    font-size: 45px;
+}
+
+.main .scroll-indicator {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .scroll-indicator .dot {
+    background-color: var(--br-tertiary);
+    border-radius: 50%;
+    margin-top: 8px;
+    height: 4px;
+    width: 4px;
+}

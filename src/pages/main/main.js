@@ -2,6 +2,8 @@ import React from 'react';
 
 import scrollImg from '../../assets/ic_mouse_black_48dp.png';
 
+import './main.css';
+
 const Main = () => {
     return (
         <div className="main">
