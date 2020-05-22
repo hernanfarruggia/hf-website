@@ -1,8 +1,8 @@
 export default [
     {
         name: 'Connected Apps',
-        company: 'Paychex - ITX Corp.',
-        companyLogo: 'paychex',
+        entity: 'Paychex - ITX Corp.',
+        entityLogo: 'paychex',
         description: {
             en: `I’m part of a scrum team. As dev my daily job is to work in my sprint tasks, provide
             assistance to other team members, being involved in all scrum ceremonies and
@@ -25,8 +25,8 @@ export default [
     },
     {
         name: 'People Drawer Enhacements',
-        company: 'Paychex - ITX Corp.',
-        companyLogo: 'paychex',
+        entity: 'Paychex - ITX Corp.',
+        entityLogo: 'paychex',
         description: {
             en: `I’m part of a scrum team. As dev my daily job is to work in my sprint tasks, provide
             assistance to other team members, being involved in all scrum ceremonies and
@@ -49,8 +49,8 @@ export default [
     },
     {
         name: 'Company HTML',
-        company: 'Paychex - ITX Corp.',
-        companyLogo: 'paychex',
+        entity: 'Paychex - ITX Corp.',
+        entityLogo: 'paychex',
         description: {
             en: `I’m part of a scrum team. As dev my daily job is to work in my sprint tasks, provide
             assistance to other team members, being involved in all scrum ceremonies and
@@ -73,8 +73,8 @@ export default [
     },
     {
         name: 'Delphix DB Core Platform',
-        company: 'Delphix - Global Logic',
-        companyLogo: 'delphix',
+        entity: 'Delphix - Global Logic',
+        entityLogo: 'delphix',
         description: {
             en: `I’m part of a scrum team. As dev my daily job is to work in my sprint tasks, provide
             assistance to other team members, being involved in all scrum ceremonies and
@@ -97,8 +97,8 @@ export default [
     },
     {
         name: 'Sophos Core Platform',
-        company: 'Sophos - Global Logic',
-        companyLogo: 'sophos',
+        entity: 'Sophos - Global Logic',
+        entityLogo: 'sophos',
         description: {
             en: `I’m part of a scrum team. As dev my daily job is to work in my sprint tasks, provide
             assistance to other team members, being involved in all scrum ceremonies and
@@ -121,8 +121,8 @@ export default [
     },
     {
         name: 'UI Components Kit',
-        company: 'Southwest Airlines - Globant',
-        companyLogo: 'southwest',
+        entity: 'Southwest Airlines - Globant',
+        entityLogo: 'southwest',
         description: {
             en: `I’m part of a scrum team. As dev my daily job is to work in my sprint tasks, provide
             assistance to other team members, being involved in all scrum ceremonies and
@@ -145,8 +145,8 @@ export default [
     },
     {
         name: 'Ads Campaings Administrator',
-        company: 'Mindshare - Globant',
-        companyLogo: 'mindshare',
+        entity: 'Mindshare - Globant',
+        entityLogo: 'mindshare',
         description: {
             en: `I’m part of a scrum team. As dev my daily job is to work in my sprint tasks, provide
             assistance to other team members, being involved in all scrum ceremonies and

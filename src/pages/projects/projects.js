@@ -4,7 +4,7 @@ import projectsData from '../../data/projects';
 
 import Section from '../../ui-components/section';
 import Title from '../../ui-components/title';
-import Avatar from '../../ui-components/avatar';
+import Experience from '../../ui-components/experience';
 
 const Projects = () => {
 
@@ -15,22 +15,7 @@ const Projects = () => {
 
                 {
                     projectsData.map((item, key) => {
-                        return (
-                            <div className="experience" key={ key }>
-                                <div className="entity-info">
-                                    <div className="entity-info--details">
-                                        <Avatar src={ item.companyLogo } type="entity" />
-                                        <div>
-                                            <div className="entity-info--details_name">{ item.name }</div>
-                                            <div className="entity-info--details_position">{ item.company }</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    { item.description.en }
-                                </div>
-                            </div>
-                        );
+                        return <Experience item={ item } key={ key } />;
                     })
                 }
                 

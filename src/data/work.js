@@ -1,8 +1,8 @@
 export default [
     {
-        company: 'ITX Corp.',
-        companyLogo: 'itx',
-        position: 'SR. Frontend Engineer',
+        name: 'SR. Frontend Engineer',
+        entity: 'ITX Corp.',
+        entityLogo: 'itx',
         timeframe: '2017 - Present',
         description: {
             en: `I’m part of a scrum team. As dev my daily job is to work in my sprint tasks, provide
@@ -24,9 +24,9 @@ export default [
         }
     },
     {
-        company: 'Global Logic',
-        companyLogo: 'globallogic',
-        position: 'SR. Frontend Engineer',
+        name: 'SR. Frontend Engineer',
+        entity: 'Global Logic',
+        entityLogo: 'globallogic',
         timeframe: '2015 - 2017',
         description: {
             en: `I have worked in 4 different projects for the company, all related to external custo-
@@ -42,9 +42,9 @@ export default [
         }
     },
     {
-        company: 'Estudio Bolonia',
-        companyLogo: 'na',
-        position: 'Team Lead',
+        name: 'Team Lead',
+        entity: 'Estudio Bolonia',
+        entityLogo: 'na',
         timeframe: '2015 - 2017',
         description: {
             en: `This was a freelance project, I was the lead of a group of developers, getting new
@@ -60,9 +60,9 @@ export default [
         }
     },
     {
-        company: 'Globant',
-        companyLogo: 'globant',
-        position: 'Frontend Developer',
+        name: 'Frontend Developer',
+        entity: 'Globant',
+        entityLogo: 'globant',
         timeframe: '2014 - 2015',
         description: {
             en: `This is where I fell in love with Frontend practices. I learned the science behind
@@ -82,9 +82,9 @@ export default [
         }
     },
     {
-        company: 'Estudio Syncro',
-        companyLogo: 'na',
-        position: 'Web Developer',
+        name: 'Web Developer',
+        entity: 'Estudio Syncro',
+        entityLogo: 'na',
         timeframe: '2012 - 2014',
         description: {
             en: `This was a freelance project with a college friend. We were 2 years working together
@@ -96,9 +96,9 @@ export default [
         }
     },
     {
-        company: '7L Freight',
-        companyLogo: 'sevenl',
-        position: 'Web Developer',
+        name: 'Web Developer',
+        entity: '7L Freight',
+        entityLogo: 'sevenl',
         timeframe: '2012 - 2014',
         description: {
             en: `My first real work as developer. The company had its own system to provide Freight

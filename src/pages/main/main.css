@@ -41,7 +41,7 @@
 }
 
 .main .scroll-indicator .dot {
-    background-color: var(--br-tertiary);
+    background-color: var(--bg-tertiary);
     border-radius: 50%;
     margin-top: 8px;
     height: 4px;
