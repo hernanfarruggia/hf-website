@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './section.css';
+
 const Section = (props) => {
 
     return (

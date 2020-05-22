@@ -1,0 +1,12 @@
+.section {
+    background-color: #ffffff;
+    color: #212121;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 30px;
+}
+
+.section.secondary {
+    background-color: #212121;
+    color: #ffffff;
+}

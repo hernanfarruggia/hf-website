@@ -20,6 +20,8 @@ import nodejs from '../../assets/node-logo.png';
 import mongodb from '../../assets/mongodb-logo.png';
 import mysql from '../../assets/mysql-logo.png';
 
+import './avatar.css';
+
 const Avatar = (props) => {
 
     const imgSrc = {
@@ -45,8 +47,8 @@ const Avatar = (props) => {
     };
 
     const type = {
-        entity: 'entity-info--details_logo',
-        skill: 'skill--logo'
+        entity: 'avatar-entity',
+        skill: 'avatar-skill'
     };
 
     return (

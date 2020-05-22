@@ -75,27 +75,6 @@
     width: 4px;
 }
 
-.section {
-    background-color: #ffffff;
-    color: #212121;
-    display: flex;
-    flex-direction: column;
-    padding: 75px 30px;
-}
-
-.section.secondary {
-    background-color: #212121;
-    color: #ffffff;
-}
-
-.section .title {
-    font-family: 'RobotoCondensed-Bold';
-    font-size: 22px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 75px;
-}
-
 .experience {
     display: flex;
     flex-direction: column;
@@ -115,14 +94,6 @@
 .experience .entity-info .entity-info--details {
     align-items: center;
     display: flex;
-}
-
-.experience .entity-info .entity-info--details .entity-info--details_logo {
-    background-color: gray;
-    border-radius: 50%;
-    height: 50px;
-    margin-right: 15px;
-    width: 50px;
 }
 
 .experience .entity-info .entity-info--details .entity-info--details_name,
@@ -156,14 +127,6 @@
     display: flex;
     flex-direction: column;
     margin: 0 20px 50px 20px;
-}
-
-.skills .skill .skill--logo {
-    background-color: gray;
-    border-radius: 50%;
-    height: 65px;
-    margin-bottom: 10px;
-    width: 65px;
 }
 
 .skills .skill .skill--name {

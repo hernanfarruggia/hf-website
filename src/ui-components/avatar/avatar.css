@@ -1,0 +1,15 @@
+.avatar-entity {
+    background-color: gray;
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 15px;
+    width: 50px;
+}
+
+.avatar-skill {
+    background-color: gray;
+    border-radius: 50%;
+    height: 65px;
+    margin-bottom: 10px;
+    width: 65px;
+}
