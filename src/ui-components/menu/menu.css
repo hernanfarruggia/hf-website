@@ -3,7 +3,7 @@
     left: 0;
     list-style: none;
     position: absolute;
-    top: 65px;
+    top: 64px;
     width: 100%;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .menu li a {
-    color: var(--text-seconday);
+    color: var(--text-secondary);
     text-decoration: none;
 }
 

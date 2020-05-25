@@ -8,7 +8,7 @@ import Experience from '../../ui-components/experience';
 
 const Work = () => {
     return (
-        <Section isSecondary>
+        <Section isSecondary id="work-history">
             <Title>Work History</Title>
             <div>
 

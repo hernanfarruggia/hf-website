@@ -8,7 +8,7 @@ import aboutData from '../../data/about';
 const About = () => {
 
     return (
-        <Section>
+        <Section id="about-me">
             <Title>About Me</Title>
             <div>
                 <img src="" className="profile-img" alt="about me!" />

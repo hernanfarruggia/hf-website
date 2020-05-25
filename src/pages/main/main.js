@@ -6,7 +6,7 @@ import './main.css';
 
 const Main = () => {
     return (
-        <div className="main">
+        <div className="main" id="main">
             <div className="jumbo">
                 <div className="text small">Hello, I'm a</div>
                 <div className="text">

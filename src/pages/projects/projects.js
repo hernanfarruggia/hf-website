@@ -9,7 +9,7 @@ import Experience from '../../ui-components/experience';
 const Projects = () => {
 
     return (
-        <Section>
+        <Section id="main-projects">
             <Title>Main Projects</Title>
             <div>
 

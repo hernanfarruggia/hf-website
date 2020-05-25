@@ -11,7 +11,7 @@ import './skills.css';
 const Skills = () => {
 
     return (
-        <Section isSecondary>
+        <Section isSecondary id="skills">
             <Title>Skills</Title>
             <div className="skills">
 

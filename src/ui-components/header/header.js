@@ -4,23 +4,25 @@ import Menu from '../menu';
 
 import './header.css';
 
-const Header = () => {
+const Header = (props) => {
 
     const [ isGeoVisible, setIsGeoVisible ] = useState(false);
     const [ geoActive, setGeoActive ] = useState(0);
+
     const [ isMenuVisible, setIsMenuVisible ] = useState(false);
     const [ menuActive, setMenuActive ] = useState(0);
+
     const menuItems = [
         { text: 'About Me', link: 'about-me' },
         { text: 'Work History', link: 'work-history' },
         { text: 'Main Projects', link: 'main-projects' },
-        { text: 'Skills', link: 'Skills' },
+        { text: 'Skills', link: 'skills' },
         { text: 'Academics', link: 'academics' },
         { text: 'Contact Me', link: 'contact-me' }
     ];
     const geoItems = [
         { text: 'English', link: '' },
-        { text: 'Espa&ntilde;ol', link: '' }
+        { text: 'Español', link: '' }
     ];
 
     const handleGeoClick = () => {
@@ -33,6 +35,7 @@ const Header = () => {
 
     const handleSetGeoActive = (id) => {
         setGeoActive(id);
+        handleGeoClick();
     }
 
     const handleMenuClick = () => {
@@ -45,10 +48,11 @@ const Header = () => {
 
     const handleSetMenuActive = (id) => {
         setMenuActive(id);
+        handleMenuClick();
     }
 
     return (
-        <div className="header">
+        <div className={ `header ${ props.isVisible ? 'show' : 'hide' }` }>
             <div className="logo">&lt;hf /&gt;</div>
             <div className="actions">
                 <div

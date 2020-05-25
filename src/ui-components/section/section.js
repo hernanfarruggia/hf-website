@@ -5,7 +5,7 @@ import './section.css';
 const Section = (props) => {
 
     return (
-        <div className={`section ${ props.isSecondary ? 'secondary' : '' }` }>
+        <div className={`section ${ props.isSecondary ? 'secondary' : '' }` } id={ props.id ? props.id : '' }>
             { props.children }
         </div>
     );

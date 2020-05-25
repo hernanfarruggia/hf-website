@@ -1,0 +1,21 @@
+.float-btn {
+    background-color: var(--bg-tertiary);
+    border: none;
+    border-radius: 50%;
+    bottom: -70px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12), 0 3px 8px rgba(0,0,0,0.24);
+    color: var(--text-secondary);
+    font-family: 'RobotoCondensed-Bold';
+    font-size: 14px;
+    height: 55px;
+    outline: none;
+    position: fixed;
+    right: 40px;
+    width: 55px;
+
+    transition: bottom .2s ease-in;
+}
+
+.float-btn.show {
+    bottom: 70px;
+}
