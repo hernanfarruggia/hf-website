@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
-    font-family: 'RobotoCondensed-Light';
+    font-family: var(--font-family-primary);
     font-size: 18px;
+    font-weight: var(--font-weight-light);
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;

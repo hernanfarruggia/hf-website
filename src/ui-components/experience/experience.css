@@ -21,7 +21,8 @@
 
 .experience .entity-info .entity-info--details .entity-info--details_name,
 .experience .entity-info .entity-info--details .entity-info--details_position {
-    font-family: 'RobotoCondensed-Bold';
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-bold);
     text-transform: uppercase;
 }
 
@@ -34,7 +35,8 @@
 }
 
 .experience .entity-info .entity-info--timeframe {
-    font-family: 'RobotoCondensed-Bold';
+    font-family: var(--font-family-primary);
     font-size: 13px;
+    font-weight: var(--font-weight-bold);
     text-transform: uppercase;
 }

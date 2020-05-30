@@ -14,11 +14,22 @@ import javascript from '../../assets/js-logo.png';
 import html from '../../assets/html5-logo.png';
 import css from '../../assets/css3-logo.png';
 import reactjs from '../../assets/react-logo.png';
+import redux from '../../assets/redux-logo.png';
 import angularjs from '../../assets/angularjs-logo.png';
 import vuejs from '../../assets/vuejs-logo.png';
+import lodash from '../../assets/lodash-logo.png';
+import underscore from '../../assets/underscore-logo.png';
+import jquery from '../../assets/jquery-logo.png';
+import sass from '../../assets/sass-logo.png';
+import less from '../../assets/less-logo.png';
 import nodejs from '../../assets/node-logo.png';
+import express from '../../assets/express-logo.png';
+import sailsjs from '../../assets/sailsjs-logo.png';
 import mongodb from '../../assets/mongodb-logo.png';
 import mysql from '../../assets/mysql-logo.png';
+import edx from '../../assets/edx.png';
+import utnba from '../../assets/utn-ba.png';
+import institutobelgrano from '../../assets/instituto-belgrano.png';
 
 import './avatar.css';
 
@@ -39,11 +50,22 @@ const Avatar = (props) => {
         html,
         css,
         reactjs,
+        redux,
         angularjs,
         vuejs,
+        lodash,
+        underscore,
+        jquery,
+        sass,
+        less,
         nodejs,
+        express,
+        sailsjs,
         mongodb,
-        mysql
+        mysql,
+        edx,
+        utnba,
+        institutobelgrano
     };
 
     const type = {

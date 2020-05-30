@@ -1,6 +1,7 @@
 .title {
-    font-family: 'RobotoCondensed-Bold';
+    font-family: var(--font-family-primary);
     font-size: 22px;
+    font-weight: var(--font-weight-bold);
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 75px;

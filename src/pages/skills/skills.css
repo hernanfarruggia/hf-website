@@ -12,7 +12,8 @@
 }
 
 .skills .skill .skill--name {
-    font-family: 'RobotoCondensed-Bold';
+    font-family: var(--font-family-primary);
     font-size: 12px;
+    font-weight: var(--font-weight-bold);
     text-transform: uppercase;
 }

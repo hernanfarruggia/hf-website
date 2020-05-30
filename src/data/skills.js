@@ -52,8 +52,8 @@ export default [
         image: 'nodejs'
     },
     {
-        name: 'expressjs',
-        image: 'expressjs'
+        name: 'express',
+        image: 'express'
     },
     {
         name: 'sails js',

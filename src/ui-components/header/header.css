@@ -22,8 +22,9 @@
     background-color: var(--bg-primary);
     border-radius: 20px;
     color: var(--text-primary);
-    font-family: 'RobotoCondensed-Bold';
+    font-family: var(--font-family-primary);
     font-size: 16px;
+    font-weight: var(--font-weight-bold);
     padding: 2px 8px;
 }
 

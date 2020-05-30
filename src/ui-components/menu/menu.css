@@ -19,5 +19,6 @@
 
 .menu li a.active {
     color: var(--text-tertiary);
-    font-family: 'RobotoCondensed-Bold';
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-bold);
 }

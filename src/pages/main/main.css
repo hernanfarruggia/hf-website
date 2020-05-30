@@ -20,8 +20,9 @@
 
 .main .jumbo .text {
     color: var(--text-secondary);
-    font-family: 'RobotoCondensed-Bold';
+    font-family: var(--font-family-primary);
     font-size: 45px;
+    font-weight: var(--font-weight-bold);
 }
 
 .main .jumbo .text.small {
@@ -30,8 +31,9 @@
 
 .main .jumbo .text .alt {
     color: var(--text-tertiary);
-    font-family: 'RobotoCondensed-Bold';
+    font-family: var(--font-family-primary);
     font-size: 45px;
+    font-weight: var(--font-weight-bold);
 }
 
 .main .scroll-indicator {

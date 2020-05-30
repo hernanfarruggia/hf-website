@@ -3,6 +3,12 @@
     --bg-secondary: #212121;
     --bg-tertiary: #f44336;
 
+    --font-family-primary: 'Roboto Condensed';
+
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
     --text-primary: #212121;
     --text-secondary: #ffffff;
     --text-tertiary: #f44336;

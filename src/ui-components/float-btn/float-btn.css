@@ -1,13 +1,16 @@
 .float-btn {
+    align-items: center;
     background-color: var(--bg-tertiary);
     border: none;
     border-radius: 50%;
     bottom: -70px;
     box-shadow: 0 3px 8px rgba(0,0,0,0.12), 0 3px 8px rgba(0,0,0,0.24);
     color: var(--text-secondary);
+    display: flex;
     font-family: 'RobotoCondensed-Bold';
     font-size: 14px;
     height: 55px;
+    justify-content: center;
     outline: none;
     position: fixed;
     right: 40px;
@@ -18,4 +21,8 @@
 
 .float-btn.show {
     bottom: 70px;
+}
+
+.float-btn .icon {
+    width: 60%;
 }

@@ -2,6 +2,8 @@ import React from 'react';
 
 import './float-btn.css';
 
+import UpArrow from '../../assets/up-arrow.png';
+
 const FloatBtn = (props) => {
 
     const handleClick = () => {
@@ -12,7 +14,7 @@ const FloatBtn = (props) => {
         <button
             className={`float-btn ${props.isVisible ? 'show' : ''}`}
             onClick={ () => { handleClick(); } }>
-            TOP
+            <img src={UpArrow} className="icon" />
         </button>
     )
 }
